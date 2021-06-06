@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myprofile_10118349.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.myprofile_10118349.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/activity_profile" />
+
+    <fragment
+        android:id="@+id/nav_ctt"
+        android:name="com.example.myprofile_10118349.ui.main.CatatanFragment"
+        android:label="activity_catatan"
+        tools:layout="@layout/activity_catatan" />
+    <fragment
+        android:id="@+id/characterFragment"
+        android:name="com.example.myprofile_10118349.ui.main.CharacterFragment"
+        android:label="CharacterFragment" />
+    <fragment
+        android:id="@+id/infoapk"
+        android:name="com.example.myprofile_10118349.ui.info.Tentang"
+        android:label="fragment_tentang"
+        tools:layout="@layout/fragment_tentang" />
+</navigation>
